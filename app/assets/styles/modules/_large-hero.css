@@ -1,0 +1,31 @@
+.large-hero {
+  position: relative;
+
+  .large-hero__text-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+/* ##### esta es la forma tradicional de añadir estilos 
+  #### en la que no utilizamos POSTCSS
+.large-hero h1 {
+  font-weight: 300;
+}*/
+
+.large-hero__title {
+  font-weight: 300;
+  color: #2f5572;
+  font-size: 4.8rem;
+}
+
+.large-hero__subtitle {
+  font-weight: 300;
+  color: #2f5572;
+  font-size: 2.9rem;
+}
